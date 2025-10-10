@@ -6,11 +6,11 @@ namespace Tyuiu.KolganenkoRV.Sprint3.Task1.V19.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double pro = 1;
-            int i;
 
-            for (i = startValue; i <= stopValue; i++)
+            while (startValue <= stopValue)
             {
-                pro = pro * (Math.Cos(value) + (i / 4));
+                pro = pro * (Math.Cos(value) + (startValue / 4.0));
+                startValue++;
             }
             return Math.Round(pro, 3);
         }
