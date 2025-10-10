@@ -9,7 +9,7 @@ namespace Tyuiu.KolganenkoRV.Sprint3.Task1.V19.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double value = 1;
+            int value = 1;
             int startValue = 1;
             int stopValue = 9;
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
