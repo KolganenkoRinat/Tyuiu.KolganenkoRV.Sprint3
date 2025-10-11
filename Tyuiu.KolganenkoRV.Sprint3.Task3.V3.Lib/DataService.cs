@@ -17,7 +17,7 @@ namespace Tyuiu.KolganenkoRV.Sprint3.Task3.V3.Lib
                 }
                 else
                 {
-                    if (currentSequence > 0 && currentSequence < minSequence)
+                    if (currentSequence >= 2 && currentSequence < minSequence) // только последовательности из 2+ символов
                     {
                         minSequence = currentSequence;
                     }
@@ -26,12 +26,12 @@ namespace Tyuiu.KolganenkoRV.Sprint3.Task3.V3.Lib
             }
 
             // Проверяем последовательность в конце строки
-            if (currentSequence > 0 && currentSequence < minSequence)
+            if (currentSequence >= 2 && currentSequence < minSequence)
             {
                 minSequence = currentSequence;
             }
 
-            // Если не найдено ни одной последовательности
+            // Если не найдено ни одной последовательности из 2+ символов
             if (minSequence == int.MaxValue)
             {
                 return 0;
