@@ -6,15 +6,38 @@ namespace Tyuiu.KolganenkoRV.Sprint3.Task3.V3.Lib
     {
         public int GetMinCharCount(string value, char item)
         {
-            int count = 0;
+            int minSequence = int.MaxValue;
+            int currentSequence = 0;
+
             foreach (char chr in value)
             {
                 if (chr == item)
                 {
-                    count++;
+                    currentSequence++;
+                }
+                else
+                {
+                    if (currentSequence > 0 && currentSequence < minSequence)
+                    {
+                        minSequence = currentSequence;
+                    }
+                    currentSequence = 0;
                 }
             }
-            return count;
+
+            // Проверяем последовательность в конце строки
+            if (currentSequence > 0 && currentSequence < minSequence)
+            {
+                minSequence = currentSequence;
+            }
+
+            // Если не найдено ни одной последовательности
+            if (minSequence == int.MaxValue)
+            {
+                return 0;
+            }
+
+            return minSequence;
         }
     }
 }

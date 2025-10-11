@@ -9,10 +9,10 @@ namespace Tyuiu.KolganenkoRV.Sprint3.Task3.V3.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            string str = "cvbmzff orffgtrr dkfvfffdr";
+            string str = "cvbmzff orffgtrr dkffffdr";
             char chr = 'f';
             int res = ds.GetMinCharCount(str, chr);
-            int wait = 8;
+            int wait = 2;
             Assert.AreEqual(wait, res);
 
         }
