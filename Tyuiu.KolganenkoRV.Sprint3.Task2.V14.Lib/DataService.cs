@@ -9,7 +9,7 @@ namespace Tyuiu.KolganenkoRV.Sprint3.Task2.V14.Lib
             double pro = 1;
             do
             {
-                pro *= Math.Pow((double)value / startValue, 3); 
+                pro *= Math.Pow((double)value / startValue, 3);
                 startValue++;
             }
             while (startValue <= stopValue);
