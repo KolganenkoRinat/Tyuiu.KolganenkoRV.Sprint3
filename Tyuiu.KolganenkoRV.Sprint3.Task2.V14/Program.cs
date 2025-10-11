@@ -20,7 +20,7 @@ Console.WriteLine("*************************************************************
 
 int value = 5;
 int startValue = 1;
-int stopValue = 6;
+int stopValue = 11;
 Console.WriteLine("Переменная x = " + value);
 Console.WriteLine("Старт шага = " + startValue);
 Console.WriteLine("Конец шага = " + stopValue);

@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KolganenkoRV.Sprint3.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KolganenkoRV.Sprint3.Task2.V14.Test", "Tyuiu.KolganenkoRV.Sprint3.Task2.V14.Test\Tyuiu.KolganenkoRV.Sprint3.Task2.V14.Test.csproj", "{FE37EDAC-75B6-4CC1-A872-6ED3E4D7D0B3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{23B4CA12-228D-4B06-B5AF-5D4278693DBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
