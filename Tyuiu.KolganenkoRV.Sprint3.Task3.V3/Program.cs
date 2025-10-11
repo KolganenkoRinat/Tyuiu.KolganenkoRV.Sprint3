@@ -18,7 +18,7 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
 Console.WriteLine("***************************************************************************");
 
-string value = "cvbmzff orffgtrr dkffffdr";
+string value = "cvbmzff orffgtrr dkfvfffdr";
 char chr = 'f';
 
 Console.WriteLine("Исходная строка = " + value);
