@@ -9,9 +9,9 @@ namespace Tyuiu.KolganenkoRV.Sprint3.Task5.V10.Lib
             double SumSeries = 0;
             int i, j;
             
-            for (i = startValue1; i < stopValue1; i++)
+            for (i = startValue1; i <= stopValue1; i++)
             { 
-                for (j = startValue2; j < stopValue2; j++) 
+                for (j = startValue2; j <= stopValue2; j++) 
                 {
                     SumSeries = SumSeries + (Math.Pow(x, 3) * j) + 2;
                 }
