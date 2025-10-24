@@ -14,7 +14,7 @@ namespace Tyuiu.KolganenkoRV.Sprint3.Task6.V11.Lib
                 {
                     if (i % j == 0)
                     {
-                        SumSeries += j;
+                        SumSeries += 1;
                     }
                 }
             
